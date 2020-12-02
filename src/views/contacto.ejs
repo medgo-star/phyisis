@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <%- include ('./partials/head.html')%>
+
+</head>
+
+<body>
+<div class="todo">
+    <%- include ('./partials/navigation.html')%>
+           <!--caja blanca 1-->
+           <div class="caja4">
+            <p>¿Tienes dudas o sugerencias? completa este formulario y estaremos en contacto</p><br>
+            <img src="/img/pregunta.svg" alt="icono de mensaje" id="mess-ico">
+            <form class="form-cont">
+                <h2 class="tit-form">CONTACTANOS</h2>
+                <p type="Nombre"><input placeholder="Escribe tu nombre..."></input></p>
+                <p type="Email"><input placeholder="Escribe tu correo electrónico..."></input></p>
+                <p type="Mensaje" class="mess"><input placeholder="Escribe tu mensaje aquí..."></input></p>
+                <button type="submit" class="btn-enviar">Enviar</button>
+                <img src="/img/hablar.svg" alt="icono de mensaje" id="mess-ico">
+              </form>          
+          </div>
+</div>         
+</body>
+    
+</html>
